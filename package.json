@@ -1,0 +1,31 @@
+{
+  "name": "Deployment-Sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --runInBand",
+    "tdd": "jest --watch --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UW-PCE-JSCRIPT-400-Summer-2020/Deployment-Sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UW-PCE-JSCRIPT-400-Summer-2020/Deployment-Sample/issues"
+  },
+  "homepage": "https://github.com/UW-PCE-JSCRIPT-400-Summer-2020/Deployment-Sample#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.2.2",
+    "jest": "^26.4.1",
+    "supertest": "^4.0.2"
+  }
+}

@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const port = process.env.PORT || 5000;
-
+console.log(process.env.MONGO_CONNECTION_STRING)
 mongoose.connect(process.env.MONGO_CONNECTION_STRING, {
   useNewUrlParser: true, 
   useCreateIndex: true, 
